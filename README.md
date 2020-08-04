@@ -27,14 +27,14 @@ dependencies {
 
 Hilt uses Java 8 features. To enable Java 8 in your project, add the following to the app/build.gradle file:
 
-android {
-  ...
-  compileOptions {
-    sourceCompatibility JavaVersion.VERSION_1_8
-    targetCompatibility JavaVersion.VERSION_1_8
-  }
-  
-      kotlinOptions {
-        jvmTarget = JavaVersion.VERSION_1_8.toString()
-    }
-}
+    android {
+      ...
+      compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+      }
+
+          kotlinOptions {
+            jvmTarget = JavaVersion.VERSION_1_8.toString()
+        }
+      }
