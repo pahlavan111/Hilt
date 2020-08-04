@@ -1,5 +1,6 @@
 # Hilt
 First, add the hilt-android-gradle-plugin plugin to your project's root build.gradle file:
+
     buildscript {
         ...
         dependencies {
@@ -10,6 +11,7 @@ First, add the hilt-android-gradle-plugin plugin to your project's root build.gr
 
 
 Then, apply the Gradle plugin and add these dependencies in your app/build.gradle file:
+
     ...
     apply plugin: 'kotlin-android'
     apply plugin: 'kotlin-android-extensions'    //check this 2 upper plugin that what it is
